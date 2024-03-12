@@ -1,0 +1,19 @@
+word2number
+deepspeech
+numpy
+pyaudio
+pyttsx3
+tkinter
+datetime
+tkcalendar
+speech_recognition 
+datetime
+python-wheather
+requests
+custom tkinter
+
+get api key from: https://home.openweathermap.org
+
+
+
+"Async" refers to asynchronous programming, a programming paradigm that allows certain operations to be executed independently of the main program flow. Asynchronous programming is commonly used in situations where tasks may take some time to complete, such as I/O operations (reading from or writing to a file, making network requests) or tasks that involve waiting for external events.

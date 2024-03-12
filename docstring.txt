@@ -1,0 +1,39 @@
+"""
+TaskManager - A Voice-Controlled Task and Weather Manager
+
+This module implements a TaskManager class that allows users to manage tasks and get weather updates through
+voice commands. It utilizes tkinter for the graphical user interface, speech recognition for user input,
+and text-to-speech for providing responses.
+
+Classes:
+    - TaskManager: Manages the main functionality of the application, including UI setup, task management,
+                   and weather information retrieval.
+
+Functions:
+    - speech_to_text: Mock function for speech-to-text conversion (for testing purposes).
+    - text_to_speech: Mock function for text-to-speech conversion (for testing purposes).
+    - get_weather: Mock function for retrieving weather information (for testing purposes).
+
+Methods in TaskManager class:
+    - __init__(self, root): Initializes the TaskManager with the specified root (Tkinter root window).
+    - initialize_ui(self): Sets up the graphical user interface with a Treeview widget.
+    - check_queue(self): Continuously checks the queue for user actions and calls handle_user_input to process them.
+    - convert_text_to_numbers(self, year_entry, month_entry, day_entry): Converts text inputs to numeric values.
+    - data_add_row(self): Takes user input for a new task and adds a row to the Treeview widget.
+    - main_loop(self): The main loop of the application, continuously listening for user triggers.
+    - add_row(self, task, priority, budget, year_entry, month_entry, day_entry): Adds a new row to the Treeview widget.
+    - data_weather(self): Retrieves and displays weather information for a specified city.
+    - take_user_input(self, prompt): Takes user input through speech recognition and displays corresponding prompts.
+    - listen_for_trigger(self): Listens for a trigger phrase ("Hi, Buddy.") and puts the user's action into the queue.
+    - handle_user_input(self, action): Processes the user's action and performs the corresponding functionality.
+
+Usage:
+    - Create an instance of TaskManager and run the main loop to start the application.
+
+Note:
+    - The speech_to_text, text_to_speech, and get_weather functions are mocked for testing purposes.
+    - The check_queue method and the associated threading are used to handle asynchronous user inputs.
+
+"""
+
+# Your code goes here...
