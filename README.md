@@ -1,6 +1,6 @@
 # WallBuddy - Voice-Controlled Assistant Planner
 
-Welcome to WallBuddy, your intelligent voice-controlled assistant planner designed to simplify task management, track deadlines, manage budgets, and answer questions, all without the need for buttons.
+Welcome to WallBuddy, your intelligent voice-controlled assistant planner. Designed to simplify task management, track deadlines, manage budgets, and answer questions. All without the need for buttons.
 
 **Note: WallBuddy is currently in beta. Full features and improvements are coming soon!**
 
@@ -42,7 +42,7 @@ Welcome to WallBuddy, your intelligent voice-controlled assistant planner design
    - Ask questions such as, "What's my next task?" or "How much budget is remaining?"
 
 5. **Entertainment Checker:**
-   - Discover local entertainment options by saying, "What are the movie showtimes for today?"
+   - Discover local entertainment options by saying, "What are the movies showtime for today?"
 
 ## Getting Started
 
